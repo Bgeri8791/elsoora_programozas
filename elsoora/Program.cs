@@ -98,6 +98,7 @@ namespace elsoora
             Console.WriteLine("A legnagyobb érték indexxe a tömbben: "+max);
             Console.ReadLine();
             */
+            /*
             //Másolás programozás tétel:
             int[] tomb = new int[] { 10, 2003, 300, 43, 587 };
             int[] tomb2 = new int[tomb.Length];
@@ -118,6 +119,77 @@ namespace elsoora
                 Console.Write(tomb2[y] + " ");
             }
             Console.WriteLine();
+            */
+            /*
+            //Kiválogatás programozás tétel:
+            int[] tomb = new int[] { 10, 2003, 300, 43, 587 };
+            int[] tomb2 = new int[tomb.Length];
+            int db = 0;
+            for (int i = 0; i < tomb.Length; i++)
+            {
+                if (tomb[i]%2==0)
+                {
+                    tomb2[db] = tomb[i];
+                    db++;
+                }
+            }
+            Console.WriteLine("A tömb elemei:");
+            for (int i = 0; i < tomb.Length; i++)
+            {
+
+                Console.Write(tomb[i] + " ");
+            }
+            Console.WriteLine();
+            Console.WriteLine("A tömb2 elemei:");
+            for (int y = 0; y < db; y++)
+            {
+                Console.Write(tomb2[y] + " ");
+            }
+            Console.WriteLine();
+            */
+            /*
+            //Szétválógatás programozás tétel:
+            int[] tomb = new int[] { 10, 2003, 300, 43, 587 };
+            int[] tomb2 = new int[tomb.Length];
+            int[] tomb3 = new int[tomb.Length];
+            int db = 0;
+            int db2 = 0;
+            for (int i = 0; i < tomb.Length; i++)
+            {
+                if (tomb[i] % 2 == 0)
+                {
+                    tomb2[db] = tomb[i];
+                    db++;
+                }
+                else 
+                {
+                    tomb3[db] = tomb[i];
+                    db2++;
+
+                }
+            }
+            Console.WriteLine("A tömb elemei:");
+            for (int i = 0; i < tomb.Length; i++)
+            {
+
+                Console.Write(tomb[i] + " ");
+            }
+            Console.WriteLine();
+            Console.WriteLine("A tömb2 elemei:");
+            for (int y = 0; y < db; y++)
+            {
+                Console.Write(tomb2[y] + " ");
+            }
+            Console.WriteLine();
+            Console.WriteLine("A tömb3 elemei:");
+            for (int y = 0; y < db2; y++)
+            {
+                Console.Write(tomb3[y] + " ");
+            }
+            Console.WriteLine();
+            */
+
+
         }
     }
 }
