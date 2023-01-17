@@ -53,6 +53,7 @@ namespace elsoora
                 Console.WriteLine("Van ilyen elem a tömbben, és indexe "+idx);
                 Console.ReadLine();
             }
+
         }
     }
 }
