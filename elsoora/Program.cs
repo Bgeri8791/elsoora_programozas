@@ -66,22 +66,6 @@ namespace elsoora
                 }
                 
             }
-            Console.WriteLine("Ennyi darab megfelelő elem van: " + db);
-            */
-            /*
-            int db = 0;
-            string[] tomb = new string[] { "alma","zöldalma","körte","sárgaalma"};
-            for (int i = 0; i < tomb.Length; i++)
-            {
-                if (tomb[i].Contains("alma"))
-                {
-                    db++;
-                }
-
-            }
-            Console.WriteLine("Hány 'alma' szó szerepel a tömbben: " + db);
-            Console.ReadLine();
-            */
         }
     }
 }
