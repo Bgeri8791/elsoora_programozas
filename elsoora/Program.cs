@@ -16,7 +16,7 @@ namespace elsoora
             int[] tomb = new int[] { 1, 6, 32, 65, 10 };
             for (int i = 0; i < tomb.Length; i++)
             {
-                osszeg = osszeg + tomb[i];
+                osszeg = osszeg + tomb[i];kbjk
             }
             Console.WriteLine("A tömb összege: " + osszeg);
             Console.ReadLine();
